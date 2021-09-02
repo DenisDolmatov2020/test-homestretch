@@ -48,7 +48,6 @@ export default {
         this.weekends = this.freeze_weekends = data
       } catch (error) {
         console.error(error)
-        console.log(error.response.status)
       }
     },
     async setWeekends () {
@@ -63,7 +62,6 @@ export default {
         this.weekends = this.freeze_weekends = data
       } catch (error) {
         console.error(error)
-        console.log(error.response.status)
       }
     }
   }
